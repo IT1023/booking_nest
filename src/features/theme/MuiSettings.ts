@@ -25,68 +25,68 @@ declare module "@mui/material/styles" {
 
 export const lightPalette: PaletteOptions = {
   primary: {
-    main: "#C2361F", // darkened enough for AA contrast
+    main: "#166534", // deep forest green, ~7:1 against white
     contrastText: "#FFFFFF",
   },
   secondary: {
-    main: "#1F2937",
-    contrastText: "#F5F5F5",
+    main: "#0B3B24", // very dark green
+    contrastText: "#E8F5EC",
   },
   info: {
     main: "#FFFFFF",
-    contrastText: "#111827",
+    contrastText: "#10241A",
   },
-  divider: "#D1D5DB",
+  divider: "#C5D6CB",
   headfoot: {
-    main: "#F9FAFB",
+    main: "#F1F5F2",
   },
   hero: {
-    main: "#E2E8F0",
+    main: "#D5E3D9",
   },
   mainbody: {
     main: "#FFFFFF",
   },
   icons: {
-    main: "#374151",
+    main: "#1F3D2B",
   },
   textColor: {
-    main: "#111827",
+    main: "#0E1F15",
   },
   service: {
-    main: "#F3F4F6",
+    main: "#E7EFE9",
   },
 };
 
 export const darkPalette: PaletteOptions = {
   primary: {
-    main: "#F06549",
-    contrastText: "#FFFFFF",
+    main: "#3FA66B", // muted mid green, readable on dark without glowing
+    contrastText: "#04150B",
   },
   secondary: {
-    main: "#1F2937",
-    contrastText: "#F5F5F5",
+    main: "#123524",
+    contrastText: "#E3F1E8",
   },
   info: {
-    main: "#374151",
-    contrastText: "#FFFFFF",
+    main: "#1B3326",
+    contrastText: "#EAF5EE",
   },
-  divider: "#4B5563",
+  divider: "#2C4A39",
   headfoot: {
-    main: "#111827",
+    main: "#08130D",
   },
   hero: {
-    main: "#18212F",
+    main: "#0C1C14",
   },
   mainbody: {
-    main: "#1F2937",
+    main: "#102319",
   },
   icons: {
-    main: "#CBD5E1", // bright enough for contrast on dark bg
+    main: "#A9CDB8",
   },
   textColor: {
-    main: "#E5E7EB", // readable on dark bg
+    main: "#DCEBE1",
   },
   service: {
-    main: "#374151",
+    main: "#1A3025",
   },
 };
