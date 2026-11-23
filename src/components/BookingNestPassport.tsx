@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import RenderOnView from "../features/render_on_view/RenderOnView";
 import { useNavigate } from "react-router-dom";
 
-const NisekoPassportContainer = styled(Box)(({ theme }) => ({
+const BookingNestPassportContainer = styled(Box)(({ theme }) => ({
   width: "100%",
   minHeight: "250px",
   padding: "15px 40px",
@@ -16,7 +16,7 @@ const NisekoPassportContainer = styled(Box)(({ theme }) => ({
   },
 }));
 
-const NisekoPassportWrapper = styled(Box)(({ theme }) => ({
+const BookingNestPassportWrapper = styled(Box)(({ theme }) => ({
   width: "100%",
   borderRadius: "25px",
   overflow: "hidden",
@@ -80,21 +80,23 @@ const More = styled(Button)(({ theme }) => ({
   backgroundColor: theme.palette.secondary.main,
 }));
 
-export default function NisekoPassport() {
+export default function BookingNestPassport() {
   const [isImageHover, setIsImageHover] = useState<boolean>(false);
   const { t } = useTranslation();
   const navigate = useNavigate();
 
   const onKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") {
-      navigate("/niseko-accommodation-deals/7/experience-niseko-passport");
+      navigate(
+        "/booking-nest-accommodation-deals/7/experience-booking-nest-passport",
+      );
     }
   };
 
   return (
     <RenderOnView animationDirection="bottom">
-      <NisekoPassportContainer>
-        <NisekoPassportWrapper>
+      <BookingNestPassportContainer>
+        <BookingNestPassportWrapper>
           <PassportImage
             onMouseEnter={() => setIsImageHover(true)}
             onMouseLeave={() => setIsImageHover(false)}
@@ -115,29 +117,29 @@ export default function NisekoPassport() {
           </PassportImage>
           <PassportInfo>
             <Title variant="h5" tabIndex={0}>
-              {t("home.niseko_passport.title")}
+              {t("home.booking-nest_passport.title")}
             </Title>
             <Content>
-              {t("home.niseko_passport.subtitle_1")}
+              {t("home.booking-nest_passport.subtitle_1")}
               <ContentLink tabIndex={0}>
-                {t("home.niseko_passport.link")}
+                {t("home.booking-nest_passport.link")}
               </ContentLink>
-              {t("home.niseko_passport.subtitle_2")}
+              {t("home.booking-nest_passport.subtitle_2")}
             </Content>
             <More
               variant="contained"
               onClick={() =>
                 navigate(
-                  "/niseko-accommodation-deals/7/experience-niseko-passport",
+                  "/booking-nest-accommodation-deals/7/experience-booking-nest-passport",
                 )
               }
               onKeyDown={onKeyDown}
             >
-              {t("home.niseko_passport.find_out")}
+              {t("home.booking-nest_passport.find_out")}
             </More>
           </PassportInfo>
-        </NisekoPassportWrapper>
-      </NisekoPassportContainer>
+        </BookingNestPassportWrapper>
+      </BookingNestPassportContainer>
     </RenderOnView>
   );
 }

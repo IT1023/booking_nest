@@ -14,7 +14,7 @@ const Frame = styled("iframe")({
 export default function Cam() {
   return (
     <CamWrapper role="feed" aria-description="Live feed of Mount Yotei">
-      <Frame src="https://yotei.htmniseko.com/"></Frame>
+      <Frame src="https://yotei.htmbooking-nest.com/"></Frame>
     </CamWrapper>
   );
 }

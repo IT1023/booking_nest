@@ -16,7 +16,7 @@ export default function Title() {
   return (
     <TitleContainer>
       <TitleText variant="h4" color="primary" tabIndex={0}>
-        {t("niseko-information.title")}
+        {t("booking-nest-information.title")}
       </TitleText>
     </TitleContainer>
   );

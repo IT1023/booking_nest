@@ -57,7 +57,7 @@ export default function Title() {
         variant="text"
         color="primary"
         component={Link}
-        to={"/niseko-accommodation-deals"}
+        to={"/booking-nest-accommodation-deals"}
         sx={{
           fontFamily: "Figtree",
           width: "fit-content",

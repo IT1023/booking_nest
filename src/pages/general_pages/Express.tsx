@@ -72,10 +72,10 @@ export default function Express() {
           <SubtitleText variant="body1">
             {t("express.subtitle")}{" "}
             <a
-              href="https://htmniseko.wufoo.eu/forms/express-checkin-form/"
+              href="https://htmbooking-nest.wufoo.eu/forms/express-checkin-form/"
               target="_blank"
             >
-              https://htmniseko.wufoo.eu/forms/express-checkin-form/
+              https://htmbooking-nest.wufoo.eu/forms/express-checkin-form/
             </a>
           </SubtitleText>
         </SubtitleWrapper>
@@ -85,13 +85,13 @@ export default function Express() {
             className="wufoo-form-container"
             height="955"
             sandbox="allow-top-navigation allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox"
-            src="https://htmniseko.wufoo.com/embed/x1unft9316db606?embedKey=x1unft9316db606392479&amp;entsource=&amp;referrer=https%3Awuslashwuslashwww.nisekocentral.comwuslash"
+            src="https://htmbooking-nest.wufoo.com/embed/x1unft9316db606?embedKey=x1unft9316db606392479&amp;entsource=&amp;referrer=https%3Awuslashwuslashwww.booking-nest.comwuslash"
             style={{
               width: "100%",
             }}
           >
             <a
-              href="https://htmniseko.wufoo.com/forms/x1unft9316db606/"
+              href="https://htmbooking-nest.wufoo.com/forms/x1unft9316db606/"
               title="html form"
             >
               Fill out my Wufoo form!

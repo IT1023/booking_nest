@@ -25,7 +25,7 @@ const PropertyContainer = styled(Container)({
 export default function Property() {
   const { id, title } = useParams();
   const { error, shouldRedirect } = useSelector(
-    (state: RootState) => state.property
+    (state: RootState) => state.property,
   );
   const dispatch = useDispatch<AppDispatch>();
 

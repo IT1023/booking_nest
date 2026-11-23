@@ -4,12 +4,12 @@ This repository contains a full-stack recreation of the Booking Nest accommodati
 
 The application is a **non-commercial, demonstration-only clone** intended solely to showcase proficiency in modern web technologies.
 
-**Live Demo**: [https://niseko-central-taha.vercel.app/](https://niseko-central-taha.vercel.app/) (hosted on Vercel)
+**Live Demo**: [https://booking-nest-taha.vercel.app/](https://booking-nest-taha.vercel.app/) (hosted on Vercel)
 
 ## Important Disclaimer
 
 - This project is **unauthorized** and created without permission from Booking Nest or any associated entities.
-- I do not own any rights to the original design, branding, trademarks, content, or intellectual property of Booking Nest (official website: [https://www.nisekocentral.com/](https://www.nisekocentral.com/)).
+- I do not own any rights to the original design, branding, trademarks, content, or intellectual property of Booking Nest (official website: [https://www.booking-nest.com/](https://www.booking-nest.com/)).
 - All information, images, property details, and other data used in this application were obtained publicly from the original Booking Nest website.
 - This application is **not affiliated with, endorsed by, or connected to** the official Booking Nest in any way.
 - It is provided strictly for **demonstration purposes** and is not intended for production use, commercial distribution, or any form of public booking service.
@@ -51,7 +51,7 @@ If pathing does not work locally, remove vercel.json file from the root folder
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/mohammedtahahalim/niseko_central.git
+   git clone https://github.com/mohammedtahahalim/booking-nest_central.git
 ```
 
 2. Install dependencies:

@@ -5,19 +5,19 @@
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
 
-.source-code-pro-niseko {
+.source-code-pro-booking-nest {
   font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
-.inter-niseko {
+.inter-booking-nest {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
-.figtree-niseko {
+.figtree-booking-nest {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -25,7 +25,8 @@
 }
 @font-face {
   font-family: "VAGRundschriftD";
-  src: local("VAGRundschriftD"),
+  src:
+    local("VAGRundschriftD"),
     url("/fonts/VAGRundschriftD.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -44,7 +45,6 @@ body {
   width: 100%;
   height: 100%;
 }
-a[href="https://weather.tomorrow.io/"]
-{
+a[href="https://weather.tomorrow.io/"] {
   display: none;
 }

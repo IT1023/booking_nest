@@ -28,10 +28,10 @@ export default function Content() {
       <ContentText variant="subtitle1" tabIndex={0}>
         {t("cam.content2")}{" "}
         <CustomLink
-          href="https://www.instagram.com/nisekocentral/"
+          href="https://www.instagram.com/booking-nest/"
           target="_blank"
         >
-          #nisekocentral
+          #booking-nest
         </CustomLink>{" "}
         {t("cam.instagram")}
       </ContentText>

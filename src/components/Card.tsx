@@ -223,7 +223,7 @@ export default function Card({
   const navigation = useCallback(
     () =>
       navigate(
-        `/niseko-accommodation/${id}/${sanitizeURL(title + "-" + type)}`,
+        `/booking-nest-accommodation/${id}/${sanitizeURL(title + "-" + type)}`,
       ),
     [title, type, id, navigate],
   );

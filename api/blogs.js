@@ -13,7 +13,7 @@ export default async function handler(req, res) {
   const connection = dbConnection();
   try {
     let { id, title, limit, page, ...rest } = req.query;
-    if (Object.keys(rest).length)
+    if (!!Object.keys(rest).length)
       return res.status(400).json({ message: "Bad Request ..." });
 
     id = Number(id);
@@ -38,7 +38,11 @@ export default async function handler(req, res) {
       const { blog_article, ...rest } = row[0];
       const titles = [];
       for (let lang of langs) {
-        titles.push(sanitizeURL(blog_article[lang].title));
+        titles.push(
+          sanitizeURL(
+            blog_article[lang].title.replace(/niseko/g, "booking nest"),
+          ),
+        );
       }
       if (!titles.includes(sanitizeURL(title)))
         return res.status(400).json({ message: "id and title mismatch ..." });

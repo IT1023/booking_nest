@@ -51,7 +51,7 @@ const quickReservationSlice = createSlice({
           infants: state.infants.toString(),
         }),
       );
-      state.reservationUrl = `/niseko-accommodation?${queries}`;
+      state.reservationUrl = `/booking-nest-accommodation?${queries}`;
       state.shouldRedirect = true;
     },
     resetSubmission: (state) => {

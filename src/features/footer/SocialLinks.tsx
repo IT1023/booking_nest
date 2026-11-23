@@ -24,7 +24,7 @@ const Logos = styled(Box)({
   display: "flex",
 });
 
-const NisekoLogo = styled(Box)({
+const BookingNestLogo = styled(Box)({
   flex: "1.5",
   display: "flex",
   justifyContent: "center",
@@ -61,13 +61,13 @@ export default function SocialLinks() {
   return (
     <SocialLinksWrapper>
       <Logos>
-        <NisekoLogo tabIndex={0}>
+        <BookingNestLogo tabIndex={0}>
           <img
             src={"/img/logo.png"}
             alt=""
             style={{ width: "90%", objectFit: "contain", scale: 1.5 }}
           />
-        </NisekoLogo>
+        </BookingNestLogo>
         <AntaLogo tabIndex={0}>
           <img
             src="/img/anta.webp"
@@ -79,7 +79,7 @@ export default function SocialLinks() {
       <Trademark>{t("footer.trademark")}</Trademark>
       <SocialMedia>
         <Link
-          href="https://www.instagram.com/nisekocentral/"
+          href="https://www.instagram.com/booking-nest/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
@@ -87,7 +87,7 @@ export default function SocialLinks() {
           <InstagramIcon fontSize="medium" color="inherit" />
         </Link>
         <Link
-          href="https://www.facebook.com/nisekocentral/"
+          href="https://www.facebook.com/booking-nest/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
@@ -95,7 +95,7 @@ export default function SocialLinks() {
           <FacebookIcon fontSize="medium" color="inherit" />
         </Link>
         <Link
-          href="https://vimeo.com/nisekocentral"
+          href="https://vimeo.com/booking-nest"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="X"

@@ -16,6 +16,10 @@ export default function dbConnection() {
       password: DB_PASS,
       port: Number(DB_PORT),
       database: DB_NAME,
+      ssl: {
+        minVersion: "TLSv1.2",
+        rejectUnauthorized: true,
+      },
     });
   }
   return pool;

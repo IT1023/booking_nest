@@ -8,12 +8,12 @@ interface ContextProviderProps {
 }
 
 export default function ContextProvider({ children }: ContextProviderProps) {
-  const { NisekoTheme, changeTheme, currentTheme } = useTheme({
+  const { bookingNestTheme, changeTheme, currentTheme } = useTheme({
     cooldown: 100,
   });
   const { changeLanguage } = useLanguage({ cooldown: 250 });
   return (
-    <ThemeProvider theme={NisekoTheme}>
+    <ThemeProvider theme={bookingNestTheme}>
       <UIContext.Provider value={{ changeTheme, changeLanguage, currentTheme }}>
         <CssBaseline />
         <GlobalStyles

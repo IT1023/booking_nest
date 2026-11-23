@@ -149,7 +149,7 @@ export default function MainTitle() {
                 onClick={(e) => {
                   e.preventDefault();
                   window.location.href =
-                    "https://reservations.nisekocentral.com/en/";
+                    "https://reservations.booking-nest.com/en/";
                 }}
               >
                 {t("property.book_now")}

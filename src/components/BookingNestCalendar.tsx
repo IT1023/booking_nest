@@ -18,7 +18,7 @@ import { useMediaQuery } from "@mantine/hooks";
 import useModal from "../features/modal/useModal";
 import CalendarMonthOutlinedIcon from "@mui/icons-material/CalendarMonthOutlined";
 
-const NisekoCalendarWrapper = styled(Box)({
+const BookingNestCalendarWrapper = styled(Box)({
   width: "100%",
   position: "relative",
   display: "flex",
@@ -78,7 +78,7 @@ const CloseButton = styled(Button)({
 
 const CalendarMotion = motion.create(CalendarWrapper);
 
-export default function NisekoCalendar() {
+export default function BookingNestCalendar() {
   const { isOpen, openModal, modalRef, parentRef, closeModal } = useModal<
     HTMLDivElement,
     HTMLDivElement
@@ -99,7 +99,7 @@ export default function NisekoCalendar() {
   return (
     <MantineProvider>
       <DatesProvider settings={{ locale: i18n.language, firstDayOfWeek: 0 }}>
-        <NisekoCalendarWrapper>
+        <BookingNestCalendarWrapper>
           <Box
             sx={{
               width: "80%",
@@ -156,7 +156,7 @@ export default function NisekoCalendar() {
               </CalendarMotion>
             )}
           </AnimatePresence>
-        </NisekoCalendarWrapper>
+        </BookingNestCalendarWrapper>
       </DatesProvider>
     </MantineProvider>
   );

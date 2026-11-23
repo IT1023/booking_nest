@@ -32,9 +32,7 @@ export default function InfoSnippet() {
         <Info>{t("contact.snippet.reservation_label")}</Info>
         <Info>
           {t("contact.snippet.reservation")}{" "}
-          <Link href="mailto:stay@nisekocentral.com">
-            stay@nisekocentral.com
-          </Link>
+          <Link href="mailto:stay@booking-nest.com">stay@booking-nest.com</Link>
           {"  "}
           <Link href="tel:+81136212558">+81 (0) 136 21 2558</Link>
         </Info>
@@ -44,7 +42,7 @@ export default function InfoSnippet() {
         <Info>{t("contact.snippet.front_desk")}</Info>
       </InfoPiece>
       <Link
-        href="https://www.google.com/maps/place/Niseko+Central/@42.8617846,140.7036263,282m/data=!3m1!1e3!4m9!3m8!1s0x5f0ab00dbc3a74cd:0xa01c4d7a212f8de!5m2!4m1!1i2!8m2!3d42.8610875!4d140.7034242!16s%2Fg%2F11y22sfkhy?entry=tts&g_ep=EgoyMDI1MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=3fafd808-7066-4cab-88a8-c165d2ccba67"
+        href="https://www.google.com/maps/place/booking-nest+Central/@42.8617846,140.7036263,282m/data=!3m1!1e3!4m9!3m8!1s0x5f0ab00dbc3a74cd:0xa01c4d7a212f8de!5m2!4m1!1i2!8m2!3d42.8610875!4d140.7034242!16s%2Fg%2F11y22sfkhy?entry=tts&g_ep=EgoyMDI1MTAxMy4wIPu8ASoASAFQAw%3D%3D&skid=3fafd808-7066-4cab-88a8-c165d2ccba67"
         target="_blank"
       >
         {t("contact.snippet.address")}

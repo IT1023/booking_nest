@@ -22,7 +22,7 @@ interface UseThemeProps {
 }
 
 interface UseThemeReturns {
-  NisekoTheme: Theme;
+  bookingNestTheme: Theme;
   currentTheme: TTheme;
   changeTheme: () => void;
 }
@@ -67,7 +67,7 @@ export default function useTheme({
     };
   }, []);
 
-  const NisekoTheme = useMemo(() => {
+  const bookingNestTheme = useMemo(() => {
     return createTheme({
       breakpoints: {
         values: {
@@ -97,5 +97,5 @@ export default function useTheme({
     [cooldown],
   );
 
-  return { NisekoTheme, currentTheme, changeTheme };
+  return { bookingNestTheme, currentTheme, changeTheme };
 }

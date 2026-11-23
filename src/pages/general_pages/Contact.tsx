@@ -48,7 +48,7 @@ export default function Contact() {
         <Title page="contact" />
         <MainImageWrapper>
           <img
-            src="https://d1z517741srsht.cloudfront.net/general/_1024xAUTO_crop_center-center_none/10690/NC-front-desk-with-Meiko-and-Yu.webp"
+            src="https://media.istockphoto.com/id/1448506100/photo/male-hotel-receptionist-assisting-female-guest.jpg?s=2048x2048&w=is&k=20&c=_wv4i2JxCaC0lCzpXSV9jmWFNx7KaOE7fUPh9AoQNOo="
             alt="Contact Image Alt"
             onLoad={() => setIsImageLoaded(true)}
             style={{

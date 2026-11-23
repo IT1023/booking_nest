@@ -94,7 +94,7 @@ export default function DesktopSlide({
       tabIndex={0}
       onKeyDown={(e: React.KeyboardEvent) => {
         if (e.key === "Enter" || e.key === "") {
-          navigate("/niseko-accomodation");
+          navigate("/booking-nest-accomodation");
         }
       }}
       role="region"

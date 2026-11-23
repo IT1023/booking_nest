@@ -1,6 +1,6 @@
 import { Box, styled, Typography } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import NisekoCalendar from "../../components/NisekoCalendar";
+import BookingNestCalendar from "../../components/BookingNestCalendar";
 import Guests from "./Guests";
 import Submit from "./Submit";
 import { useDispatch, useSelector } from "react-redux";
@@ -76,7 +76,7 @@ export default function QuickReservation() {
         >
           {t("quick_reservation.select_dates")}
         </Typography>
-        <NisekoCalendar />
+        <BookingNestCalendar />
       </CalendarWrapper>
       <Guests />
       <Submit />

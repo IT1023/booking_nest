@@ -71,7 +71,7 @@ export default function NewsCard({
 
   const onKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") {
-      navigate(`/niseko-accommodation-deals/${id}/${sanitizeURL(title)}`);
+      navigate(`/booking-nest-accommodation-deals/${id}/${sanitizeURL(title)}`);
     }
   };
 
@@ -79,7 +79,9 @@ export default function NewsCard({
     <NewsCardWrapper
       tabIndex={0}
       onClick={() =>
-        navigate(`/niseko-accommodation-deals/${id}/${sanitizeURL(title)}`)
+        navigate(
+          `/booking-nest-accommodation-deals/${id}/${sanitizeURL(title)}`,
+        )
       }
       onKeyDown={onKeyDown}
     >
@@ -107,7 +109,7 @@ export default function NewsCard({
       <InformationBox>
         <Title>{title || "Placeholder"}</Title>
         <More
-          url={`/niseko-accommodation-deals/${id}/${sanitizeURL(title)}`}
+          url={`/booking-nest-accommodation-deals/${id}/${sanitizeURL(title)}`}
           content_key={"home.news_section.more"}
         />
       </InformationBox>

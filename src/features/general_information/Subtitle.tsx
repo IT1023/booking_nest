@@ -17,7 +17,7 @@ export default function Subtitle() {
   return (
     <SubtitleWrapper>
       <SubtitleText variant="subtitle1" tabIndex={0}>
-        {t("niseko-information.subtitle")}
+        {t("booking-nest-information.subtitle")}
       </SubtitleText>
     </SubtitleWrapper>
   );

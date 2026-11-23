@@ -11,7 +11,7 @@ import conciergeSlice from "../features/concierge/conciergeSlice";
 import contactSlice from "../features/contact/contactSlice";
 import promotionSlice from "../features/promotion/promotionSlice";
 
-export const NisekoStore = configureStore({
+export const bookingNestStore = configureStore({
   reducer: {
     auth: authSlice,
     newsLetter: newsLetterSlice,
@@ -27,5 +27,5 @@ export const NisekoStore = configureStore({
   },
 });
 
-export type AppDispatch = typeof NisekoStore.dispatch;
-export type RootState = ReturnType<typeof NisekoStore.getState>;
+export type AppDispatch = typeof bookingNestStore.dispatch;
+export type RootState = ReturnType<typeof bookingNestStore.getState>;

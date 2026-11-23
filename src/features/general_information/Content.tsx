@@ -51,7 +51,7 @@ const ServiceContent = styled(Typography)({
 
 export default function Content() {
   const { t } = useTranslation();
-  const services = t("niseko-information.services", {
+  const services = t("booking-nest-information.services", {
     returnObjects: true,
   }) as ServiceType[];
 
@@ -67,10 +67,10 @@ export default function Content() {
   return (
     <ContentWrapper>
       <BodyText variant="body1" tabIndex={0}>
-        {t("niseko-information.body1")}
+        {t("booking-nest-information.body1")}
       </BodyText>
       <BodyText variant="body1" tabIndex={0}>
-        {t("niseko-information.body2")}
+        {t("booking-nest-information.body2")}
       </BodyText>
       <MainImage
         src="https://d1z517741srsht.cloudfront.net/general/_1500xAUTO_crop_center-center_none/2085/kids-yotei.webp"

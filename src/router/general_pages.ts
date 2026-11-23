@@ -10,7 +10,7 @@ const Blogs = lazy(() => import("../pages/general_pages/Blogs"));
 const Map = lazy(() => import("../pages/general_pages/Map"));
 const About = lazy(() => import("../pages/general_pages/About"));
 const GeneralInformation = lazy(
-  () => import("../pages/general_pages/GeneralInformation")
+  () => import("../pages/general_pages/GeneralInformation"),
 );
 const Live = lazy(() => import("../pages/general_pages/Live"));
 const Weather = lazy(() => import("../pages/general_pages/Weather"));
@@ -32,7 +32,7 @@ export const general_pages: TRoutes[] = [
     element: Contact,
   },
   {
-    path: "/niseko-accommodation-deals",
+    path: "/booking-nest-accommodation-deals",
     element: Deals,
   },
   {
@@ -44,7 +44,7 @@ export const general_pages: TRoutes[] = [
     element: NotFound,
   },
   {
-    path: "/niseko-accommodation",
+    path: "/booking-nest-accommodation",
     element: Reservations,
   },
   {
@@ -60,7 +60,7 @@ export const general_pages: TRoutes[] = [
     element: About,
   },
   {
-    path: "/niseko-information",
+    path: "/booking-nest-information",
     element: GeneralInformation,
   },
   {
@@ -68,7 +68,7 @@ export const general_pages: TRoutes[] = [
     element: Live,
   },
   {
-    path: "/niseko-weather",
+    path: "/booking-nest-weather",
     element: Weather,
   },
   {
@@ -76,7 +76,7 @@ export const general_pages: TRoutes[] = [
     element: Express,
   },
   {
-    path: "/niseko-long-stay",
+    path: "/booking-nest-long-stay",
     element: LongStay,
   },
 ];

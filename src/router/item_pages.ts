@@ -8,7 +8,7 @@ import type { TRoutes } from "../utils/Types";
 
 export const item_pages: TRoutes[] = [
   {
-    path: "/niseko-accommodation-deals/:id/:title",
+    path: "/booking-nest-accommodation-deals/:id/:title",
     element: Promotion,
   },
   {
@@ -20,7 +20,7 @@ export const item_pages: TRoutes[] = [
     element: Article,
   },
   {
-    path: "/niseko-accommodation/:id/:title?",
+    path: "/booking-nest-accommodation/:id/:title?",
     element: Property,
   },
   {

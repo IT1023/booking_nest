@@ -4,7 +4,7 @@ import Hero from "../../features/home/hero/Hero";
 import Services from "../../components/Services";
 import Suggestions from "../../features/suggestions/Suggestions";
 import News from "../../features/home/news/News";
-import NisekoPassport from "../../components/NisekoPassport";
+import BookingNestPassport from "../../components/BookingNestPassport";
 import Blog from "../../features/home/blog/Blog";
 import { useDispatch } from "react-redux";
 import type { AppDispatch } from "../../app/store";
@@ -40,7 +40,7 @@ export default function Home() {
       <Services />
       <Suggestions />
       <News />
-      <NisekoPassport />
+      <BookingNestPassport />
       <Blog />
       <Plan />
     </HomeWrapper>
